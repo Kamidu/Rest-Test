@@ -2,8 +2,13 @@
   "posts": [
     { "id": 1, "title": "Post 1" },
     { "id": 2, "title": "Post 2" },
+<<<<<<< HEAD
     { "id": 3, "title": "Post 3" }
     { "id": 8, "title": "judith" }
+=======
+    { "id": 3, "title": "Post 3" },
+    { "id": 4, "title": "Mahesh" }
+>>>>>>> 99db630f1f38213990bd97ff08a7aee856aecb08
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 12345 },
