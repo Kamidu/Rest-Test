@@ -5,13 +5,9 @@
     { "id": 3, "title": "Post 3" },
     { "id": 4, "title": "Mahesh" }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 12345 },
-     { "id": 2, "body": "some comment", "postId": 23456 },
-     { "id": 3, "body": "some comment", "postId": 34567 },
-     { "id": 4, "body": "some comment", "postId": 45678 },
-     { "id": 5, "body": "some comment", "postId": 56789 },
-    { "id": 6, "body": "some comment", "postId": 67890 }
+  "comments": [{ "id": 1, "body": "some comment", "postId": 12345 },{ "id": 2, "body": "some comment", "postId": 23456 },{ "id": 3, "body": "some comment", "postId": 34567 },{ "id": 4, "body": "some comment", "postId": 45678 },{ "id": 5, "body": "some comment", "postId": 56789 },{ "id": 6, "body": "some comment", "postId": 67890 }
+  ],
+    "People": [{ "id": 1, "name": "Jhon Doe", "nic": 12345 },{ "id": 2, "name": "Will Smith", "nic": 23456 },{ "id": 3, "name": "Jonny Walker", "nic": 34567 },{ "id": 4, "name": "Jenny Walker", "nic": 45678 },{ "id": 5, "name": "Cris Wadon", "nic": 56789 },{ "id": 6, "name": "Alex Smith", "nic": 67890 }
   ],
   "profile": {
     "name": "typicode"
