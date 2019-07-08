@@ -1,0 +1,315 @@
+[2019-07-03 08:03:39,422] ERROR {com.verifone.esb.handlers.AdminServicesApiHandler} -  couldn't get SystemParameter of CLEAR_CACHE_ENABLED/URL from Registry
+[2019-07-03 08:03:39,422] ERROR {com.verifone.esb.handlers.AdminServicesApiHandler} -  couldn't get SystemParameter of CLEAR_CACHE_ENABLED/URL from Registry
+[2019-07-03 08:03:39,429]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Clustering has been enabled
+[2019-07-03 08:03:39,434]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Running in application mode
+[2019-07-03 08:03:40,493]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSender} -  Initializing Pass-through HTTP/S Sender...
+[2019-07-03 08:03:40,528]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSender} -  Pass-through HTTP Sender started...
+[2019-07-03 08:03:40,528]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender} -  Initializing Pass-through HTTP/S Sender...
+[2019-07-03 08:03:40,560]  INFO {org.apache.synapse.transport.nhttp.config.ClientConnFactoryBuilder} -  customSSLProfiles configuration is loaded from path: /home/wso2carbon/wso2ei-6.4.0/conf/senderprofiles.xml
+[2019-07-03 08:03:40,560]  INFO {org.apache.synapse.transport.nhttp.config.ClientConnFactoryBuilder} -  HTTPS Loading custom SSL profiles for the HTTPS sender
+[2019-07-03 08:03:40,577]  INFO {org.apache.synapse.transport.nhttp.config.ClientConnFactoryBuilder} -  HTTPS Custom SSL profiles initialized for 226 servers
+[2019-07-03 08:03:40,578]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender} -  Pass-through HTTPS Sender started...
+[2019-07-03 08:03:40,590]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} -  Initializing Pass-through HTTP/S Listener...
+[2019-07-03 08:03:40,616]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener} -  Initializing Pass-through HTTP/S Listener...
+[2019-07-03 08:03:40,722]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: addressing-1.6.1-wso2v28 - file:/home/wso2carbon/wso2ei-6.4.0/repository/deployment/client/modules/addressing-1.6.1-wso2v28.mar
+[2019-07-03 08:03:40,725]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: rampart-1.6.1-wso2v26 - file:/home/wso2carbon/wso2ei-6.4.0/repository/deployment/client/modules/rampart-1.6.1-wso2v26.mar
+[2019-07-03 08:03:41,072]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.business.messaging.hl7.store-4.6.105 - 
+[2019-07-03 08:03:41,635]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.message.processor-4.6.105 - 
+[2019-07-03 08:03:41,646]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.message.store-4.6.105 - 
+[2019-07-03 08:03:42,115]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.sts-5.2.6 - 
+[2019-07-03 08:03:42,174]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.tryit-4.6.49 - 
+[2019-07-03 08:03:44,710]  INFO {org.apache.synapse.SynapseControllerFactory} -  Using Synapse home : /home/wso2carbon/wso2ei-6.4.0/.
+[2019-07-03 08:03:44,710]  INFO {org.apache.synapse.SynapseControllerFactory} -  Using synapse.xml location : /home/wso2carbon/wso2ei-6.4.0/././repository/deployment/server/synapse-configs/default
+[2019-07-03 08:03:44,710]  INFO {org.apache.synapse.SynapseControllerFactory} -  Using server name : localhost
+[2019-07-03 08:03:44,713]  INFO {org.apache.synapse.SynapseControllerFactory} -  The timeout handler will run every : 15s
+[2019-07-03 08:03:44,718]  INFO {org.apache.synapse.Axis2SynapseController} -  Initializing Synapse at : Wed Jul 03 08:03:44 GMT 2019
+[2019-07-03 08:03:44,726]  INFO {org.apache.synapse.config.xml.MultiXMLConfigurationBuilder} -  Building synapse configuration from the synapse artifact repository at : ././repository/deployment/server/synapse-configs/default
+[2019-07-03 08:03:44,729]  INFO {org.apache.synapse.config.xml.XMLConfigurationBuilder} -  Generating the Synapse configuration model by parsing the XML configuration
+[2019-07-03 08:03:44,785]  INFO {org.apache.synapse.config.SynapseConfigurationBuilder} -  Loaded Synapse configuration from the artifact repository at : ././repository/deployment/server/synapse-configs/default
+[2019-07-03 08:03:44,788]  INFO {org.apache.synapse.Axis2SynapseController} -  Loading mediator extensions...
+[2019-07-03 08:03:44,797]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Echo.aar - file:/home/wso2carbon/wso2ei-6.4.0/repository/deployment/server/axis2services/Echo.aar
+[2019-07-03 08:03:44,808]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Version.aar - file:/home/wso2carbon/wso2ei-6.4.0/repository/deployment/server/axis2services/Version.aar
+[2019-07-03 08:03:44,834] ERROR {org.wso2.carbon.event.publisher.core.internal.util.helper.EventPublisherConfigurationFilesystemInvoker} -  Unable to decrypt the encrypted field: password for adaptor type: wso2event
+[2019-07-03 08:03:44,844] ERROR {org.wso2.carbon.event.publisher.core.internal.util.helper.EventPublisherConfigurationFilesystemInvoker} -  Unable to decrypt the encrypted field: password for adaptor type: wso2event
+[2019-07-03 08:03:45,012]  INFO {org.apache.synapse.Axis2SynapseController} -  Deploying the Synapse service...
+[2019-07-03 08:03:45,013]  INFO {org.apache.synapse.Axis2SynapseController} -  Deploying Proxy services...
+[2019-07-03 08:03:45,013]  INFO {org.apache.synapse.Axis2SynapseController} -  Deploying EventSources...
+[2019-07-03 08:03:45,025]  INFO {org.apache.synapse.ServerManager} -  Server ready for processing...
+[2019-07-03 08:03:48,842]  INFO {org.apache.synapse.core.axis2.Axis2SynapseEnvironment} -  Continuation call is set to true
+[2019-07-03 08:03:48,865]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence named 'reqProcessingCGESequence' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562141027012VerifoneProxy_1.0.0.car/reqProcessingCGESequence_1.0.0/reqProcessingCGESequence-1.0.0.xml
+[2019-07-03 08:03:48,867]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence named 'splunkLogPayloadSequence' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562141027012VerifoneProxy_1.0.0.car/splunkLogPayloadSequence_1.0.0/splunkLogPayloadSequence-1.0.0.xml
+[2019-07-03 08:03:48,887]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence named 'requestProcessingsError' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562141027012VerifoneProxy_1.0.0.car/requestProcessingsError_1.0.0/requestProcessingsError-1.0.0.xml
+[2019-07-03 08:03:48,914]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence named 'faultCommonSequence' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562141027012VerifoneProxy_1.0.0.car/faultCommonSequence_1.0.0/faultCommonSequence-1.0.0.xml
+[2019-07-03 08:03:48,925]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence named 'basicValuesSequence' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562141027012VerifoneProxy_1.0.0.car/basicValuesSequence_1.0.0/basicValuesSequence-1.0.0.xml
+[2019-07-03 08:03:48,937]  INFO {org.apache.synapse.mediators.db.DBLookupMediator} -  Successfully created data source for jdbc:mysql://cd1rg3usmplyedd.cwegnemmy1on.us-east-1.rds.amazonaws.com:3306/dev_cpp.
+[2019-07-03 08:03:48,938]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence named 'ActiveOnStatusesLookUpSequence' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562141027012VerifoneProxy_1.0.0.car/ActiveOnStatusesLookUpSequence_1.0.0/ActiveOnStatusesLookUpSequence-1.0.0.xml
+[2019-07-03 08:03:48,949]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence named 'connectivityTestSequence' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562141027012VerifoneProxy_1.0.0.car/connectivityTestSequence_1.0.0/connectivityTestSequence-1.0.0.xml
+[2019-07-03 08:03:49,152]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence named 'reqProcessingAuthorizationSequence' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562141027012VerifoneProxy_1.0.0.car/reqProcessingAuthorizationSequence_1.0.0/reqProcessingAuthorizationSequence-1.0.0.xml
+[2019-07-03 08:03:49,158]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence named 'mainVerifoneFaultSequence' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562141027012VerifoneProxy_1.0.0.car/mainVerifoneFaultSequence_1.0.0/mainVerifoneFaultSequence-1.0.0.xml
+[2019-07-03 08:03:49,167]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence named 'routeToServiceSequence' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562141027012VerifoneProxy_1.0.0.car/routeToServiceSequence_1.0.0/routeToServiceSequence-1.0.0.xml
+[2019-07-03 08:03:49,213]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence named 'requestProcessingsSequence' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562141027012VerifoneProxy_1.0.0.car/requestProcessingsSequence_1.0.0/requestProcessingsSequence-1.0.0.xml
+[2019-07-03 08:03:49,242]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence named 'mainVerifoneSequence' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562141027012VerifoneProxy_1.0.0.car/mainVerifoneSequence_1.0.0/mainVerifoneSequence-1.0.0.xml
+[2019-07-03 08:03:49,243]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence named 'removeClientHeadersSequence' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562141027012VerifoneProxy_1.0.0.car/removeClientHeadersSequence_1.0.0/removeClientHeadersSequence-1.0.0.xml
+[2019-07-03 08:03:49,247]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence named 'reqProcessingsRestoreSequence' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562141027012VerifoneProxy_1.0.0.car/reqProcessingsRestoreSequence_1.0.0/reqProcessingsRestoreSequence-1.0.0.xml
+[2019-07-03 08:03:49,265]  INFO {org.wso2.balana.ConfigurationStore} -  Loading runtime configuration
+[2019-07-03 08:03:49,275]  INFO {org.wso2.xacml.registry.pip.AttributeFinderModuleHelper} -  Initialized AttributeFinderModuleHelper
+[2019-07-03 08:03:49,341]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence named 'mainVerifoneInternalEntitlementSequence' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562141027012VerifoneProxy_1.0.0.car/mainVerifoneInternalEntitlementSequence_1.0.0/mainVerifoneInternalEntitlementSequence-1.0.0.xml
+[2019-07-03 08:03:49,343]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence named 'reqProcessingBackupSequence' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562141027012VerifoneProxy_1.0.0.car/reqProcessingBackupSequence_1.0.0/reqProcessingBackupSequence-1.0.0.xml
+[2019-07-03 08:03:49,397]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence named 'mainVerifoneOutSequence' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562141027012VerifoneProxy_1.0.0.car/mainVerifoneOutSequence_1.0.0/mainVerifoneOutSequence-1.0.0.xml
+[2019-07-03 08:03:49,401]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Building Axis service for Proxy service : verifone
+[2019-07-03 08:03:49,403]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Adding service verifone to the Axis2 configuration
+[2019-07-03 08:03:49,409]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Successfully created the Axis2 service for Proxy service : verifone
+[2019-07-03 08:03:49,409]  INFO {org.apache.synapse.deployers.ProxyServiceDeployer} -  ProxyService named 'verifone' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562141027012VerifoneProxy_1.0.0.car/verifone_1.0.0/verifone-1.0.0.xml
+[2019-07-03 08:03:49,414]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} -  Starting Pass-through HTTP Listener...
+[2019-07-03 08:03:49,712]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence: fault has been updated from the file: /home/wso2carbon/wso2ei-6.4.0/repository/deployment/server/synapse-configs/default/sequences/fault.xml
+[2019-07-03 08:03:49,718]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} -  Pass-through HTTP Listener started on 0.0.0.0:8280
+[2019-07-03 08:03:49,719]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener} -  Starting Pass-through HTTPS Listener...
+[2019-07-03 08:03:49,725]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} -  Pass-through HTTPS Listener started on 0.0.0.0:8243
+[2019-07-03 08:03:51,719]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence: main has been updated from the file: /home/wso2carbon/wso2ei-6.4.0/repository/deployment/server/synapse-configs/default/sequences/main.xml
+[2019-07-03 08:13:10,427] ERROR {org.apache.synapse.transport.passthru.SourceHandler} -  HttpException occurred 
+org.apache.http.ProtocolException: Invalid request line:  ·  ³2¥ ¿ÌNçâ[t1²·^Üv°ØÓDàÓÓå  8À,À0 Ì©Ì¨ÌªÀ+À/ À$À( kÀ#À' gÀ
+	at org.apache.http.impl.nio.codecs.AbstractMessageParser.parse(AbstractMessageParser.java:208)
+	at org.apache.synapse.transport.http.conn.LoggingNHttpServerConnection$LoggingNHttpMessageParser.parse(LoggingNHttpServerConnection.java:407)
+	at org.apache.synapse.transport.http.conn.LoggingNHttpServerConnection$LoggingNHttpMessageParser.parse(LoggingNHttpServerConnection.java:381)
+	at org.apache.http.impl.nio.DefaultNHttpServerConnection.consumeInput(DefaultNHttpServerConnection.java:265)
+	at org.apache.synapse.transport.http.conn.LoggingNHttpServerConnection.consumeInput(LoggingNHttpServerConnection.java:114)
+	at org.apache.synapse.transport.passthru.ServerIODispatch.onInputReady(ServerIODispatch.java:82)
+	at org.apache.synapse.transport.passthru.ServerIODispatch.onInputReady(ServerIODispatch.java:39)
+	at org.apache.http.impl.nio.reactor.AbstractIODispatch.inputReady(AbstractIODispatch.java:113)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.readable(BaseIOReactor.java:159)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvent(AbstractIOReactor.java:338)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvents(AbstractIOReactor.java:316)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:277)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:105)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:586)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.http.ParseException: Invalid request line:  ·  ³2¥ ¿ÌNçâ[t1²·^Üv°ØÓDàÓÓå  8À,À0 Ì©Ì¨ÌªÀ+À/ À$À( kÀ#À' gÀ
+	at org.apache.http.message.BasicLineParser.parseRequestLine(BasicLineParser.java:298)
+	at org.apache.http.impl.nio.codecs.DefaultHttpRequestParser.createMessage(DefaultHttpRequestParser.java:119)
+	at org.apache.http.impl.nio.codecs.DefaultHttpRequestParser.createMessage(DefaultHttpRequestParser.java:51)
+	at org.apache.http.impl.nio.codecs.AbstractMessageParser.parseHeadLine(AbstractMessageParser.java:156)
+	at org.apache.http.impl.nio.codecs.AbstractMessageParser.parse(AbstractMessageParser.java:206)
+	... 14 more
+[2019-07-03 08:13:10,436]  INFO {org.apache.synapse.transport.passthru.SourceHandler} -  Writer null when calling informWriterError
+[2019-07-03 08:14:39,524] ERROR {org.apache.synapse.transport.passthru.SourceHandler} -  HttpException occurred 
+org.apache.http.ProtocolException: Invalid request line:  ·  ³sdþI+ö08­.æÊ£ÿíàqÚ×ìÄNÊ
+	at org.apache.http.impl.nio.codecs.AbstractMessageParser.parse(AbstractMessageParser.java:208)
+	at org.apache.synapse.transport.http.conn.LoggingNHttpServerConnection$LoggingNHttpMessageParser.parse(LoggingNHttpServerConnection.java:407)
+	at org.apache.synapse.transport.http.conn.LoggingNHttpServerConnection$LoggingNHttpMessageParser.parse(LoggingNHttpServerConnection.java:381)
+	at org.apache.http.impl.nio.DefaultNHttpServerConnection.consumeInput(DefaultNHttpServerConnection.java:265)
+	at org.apache.synapse.transport.http.conn.LoggingNHttpServerConnection.consumeInput(LoggingNHttpServerConnection.java:114)
+	at org.apache.synapse.transport.passthru.ServerIODispatch.onInputReady(ServerIODispatch.java:82)
+	at org.apache.synapse.transport.passthru.ServerIODispatch.onInputReady(ServerIODispatch.java:39)
+	at org.apache.http.impl.nio.reactor.AbstractIODispatch.inputReady(AbstractIODispatch.java:113)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.readable(BaseIOReactor.java:159)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvent(AbstractIOReactor.java:338)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvents(AbstractIOReactor.java:316)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:277)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:105)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:586)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.http.ParseException: Invalid request line:  ·  ³sdþI+ö08­.æÊ£ÿíàqÚ×ìÄNÊ
+	at org.apache.http.message.BasicLineParser.parseRequestLine(BasicLineParser.java:287)
+	at org.apache.http.impl.nio.codecs.DefaultHttpRequestParser.createMessage(DefaultHttpRequestParser.java:119)
+	at org.apache.http.impl.nio.codecs.DefaultHttpRequestParser.createMessage(DefaultHttpRequestParser.java:51)
+	at org.apache.http.impl.nio.codecs.AbstractMessageParser.parseHeadLine(AbstractMessageParser.java:156)
+	at org.apache.http.impl.nio.codecs.AbstractMessageParser.parse(AbstractMessageParser.java:206)
+	... 14 more
+[2019-07-03 08:14:39,528]  INFO {org.apache.synapse.transport.passthru.SourceHandler} -  Writer null when calling informWriterError
+[2019-07-03 08:14:39,533] ERROR {org.apache.synapse.transport.passthru.SourceHandler} -  HttpException occurred 
+org.apache.http.ProtocolException: Invalid request line:  ·  ³`#&áM(ð"{zåî"­ô^EPGÜsSÓ
+	at org.apache.http.impl.nio.codecs.AbstractMessageParser.parse(AbstractMessageParser.java:208)
+	at org.apache.synapse.transport.http.conn.LoggingNHttpServerConnection$LoggingNHttpMessageParser.parse(LoggingNHttpServerConnection.java:407)
+	at org.apache.synapse.transport.http.conn.LoggingNHttpServerConnection$LoggingNHttpMessageParser.parse(LoggingNHttpServerConnection.java:381)
+	at org.apache.http.impl.nio.DefaultNHttpServerConnection.consumeInput(DefaultNHttpServerConnection.java:265)
+	at org.apache.synapse.transport.http.conn.LoggingNHttpServerConnection.consumeInput(LoggingNHttpServerConnection.java:114)
+	at org.apache.synapse.transport.passthru.ServerIODispatch.onInputReady(ServerIODispatch.java:82)
+	at org.apache.synapse.transport.passthru.ServerIODispatch.onInputReady(ServerIODispatch.java:39)
+	at org.apache.http.impl.nio.reactor.AbstractIODispatch.inputReady(AbstractIODispatch.java:113)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.readable(BaseIOReactor.java:159)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvent(AbstractIOReactor.java:338)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvents(AbstractIOReactor.java:316)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:277)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:105)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:586)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.http.ParseException: Invalid request line:  ·  ³`#&áM(ð"{zåî"­ô^EPGÜsSÓ
+	at org.apache.http.message.BasicLineParser.parseRequestLine(BasicLineParser.java:287)
+	at org.apache.http.impl.nio.codecs.DefaultHttpRequestParser.createMessage(DefaultHttpRequestParser.java:119)
+	at org.apache.http.impl.nio.codecs.DefaultHttpRequestParser.createMessage(DefaultHttpRequestParser.java:51)
+	at org.apache.http.impl.nio.codecs.AbstractMessageParser.parseHeadLine(AbstractMessageParser.java:156)
+	at org.apache.http.impl.nio.codecs.AbstractMessageParser.parse(AbstractMessageParser.java:206)
+	... 14 more
+[2019-07-03 08:14:39,535]  INFO {org.apache.synapse.transport.passthru.SourceHandler} -  Writer null when calling informWriterError
+[2019-07-03 08:14:56,528] ERROR {org.apache.synapse.transport.passthru.SourceHandler} -  HttpException occurred 
+org.apache.http.ProtocolException: Invalid request line:  ·  ³Ëàe5|` *iôúBo¼ÍÀ @®ËñBIoÐ  8À,À0 Ì©Ì¨ÌªÀ+À/ À$À( kÀ#À' gÀ
+	at org.apache.http.impl.nio.codecs.AbstractMessageParser.parse(AbstractMessageParser.java:208)
+	at org.apache.synapse.transport.http.conn.LoggingNHttpServerConnection$LoggingNHttpMessageParser.parse(LoggingNHttpServerConnection.java:407)
+	at org.apache.synapse.transport.http.conn.LoggingNHttpServerConnection$LoggingNHttpMessageParser.parse(LoggingNHttpServerConnection.java:381)
+	at org.apache.http.impl.nio.DefaultNHttpServerConnection.consumeInput(DefaultNHttpServerConnection.java:265)
+	at org.apache.synapse.transport.http.conn.LoggingNHttpServerConnection.consumeInput(LoggingNHttpServerConnection.java:114)
+	at org.apache.synapse.transport.passthru.ServerIODispatch.onInputReady(ServerIODispatch.java:82)
+	at org.apache.synapse.transport.passthru.ServerIODispatch.onInputReady(ServerIODispatch.java:39)
+	at org.apache.http.impl.nio.reactor.AbstractIODispatch.inputReady(AbstractIODispatch.java:113)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.readable(BaseIOReactor.java:159)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvent(AbstractIOReactor.java:338)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvents(AbstractIOReactor.java:316)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:277)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:105)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:586)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.http.ParseException: Invalid request line:  ·  ³Ëàe5|` *iôúBo¼ÍÀ @®ËñBIoÐ  8À,À0 Ì©Ì¨ÌªÀ+À/ À$À( kÀ#À' gÀ
+	at org.apache.http.message.BasicLineParser.parseRequestLine(BasicLineParser.java:287)
+	at org.apache.http.impl.nio.codecs.DefaultHttpRequestParser.createMessage(DefaultHttpRequestParser.java:119)
+	at org.apache.http.impl.nio.codecs.DefaultHttpRequestParser.createMessage(DefaultHttpRequestParser.java:51)
+	at org.apache.http.impl.nio.codecs.AbstractMessageParser.parseHeadLine(AbstractMessageParser.java:156)
+	at org.apache.http.impl.nio.codecs.AbstractMessageParser.parse(AbstractMessageParser.java:206)
+	... 14 more
+[2019-07-03 08:14:56,532]  INFO {org.apache.synapse.transport.passthru.SourceHandler} -  Writer null when calling informWriterError
+[2019-07-03 08:19:50,480] ERROR {org.apache.synapse.transport.passthru.SourceHandler} -  HttpException occurred 
+org.apache.http.ProtocolException: Invalid request line:  ·  ³ïß:bÒÇ>cÞÙÍáS_[	G0^eWKK  8À,À0 Ì©Ì¨ÌªÀ+À/ À$À( kÀ#À' gÀ
+	at org.apache.http.impl.nio.codecs.AbstractMessageParser.parse(AbstractMessageParser.java:208)
+	at org.apache.synapse.transport.http.conn.LoggingNHttpServerConnection$LoggingNHttpMessageParser.parse(LoggingNHttpServerConnection.java:407)
+	at org.apache.synapse.transport.http.conn.LoggingNHttpServerConnection$LoggingNHttpMessageParser.parse(LoggingNHttpServerConnection.java:381)
+	at org.apache.http.impl.nio.DefaultNHttpServerConnection.consumeInput(DefaultNHttpServerConnection.java:265)
+	at org.apache.synapse.transport.http.conn.LoggingNHttpServerConnection.consumeInput(LoggingNHttpServerConnection.java:114)
+	at org.apache.synapse.transport.passthru.ServerIODispatch.onInputReady(ServerIODispatch.java:82)
+	at org.apache.synapse.transport.passthru.ServerIODispatch.onInputReady(ServerIODispatch.java:39)
+	at org.apache.http.impl.nio.reactor.AbstractIODispatch.inputReady(AbstractIODispatch.java:113)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.readable(BaseIOReactor.java:159)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvent(AbstractIOReactor.java:338)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvents(AbstractIOReactor.java:316)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:277)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:105)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:586)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.http.ParseException: Invalid request line:  ·  ³ïß:bÒÇ>cÞÙÍáS_[	G0^eWKK  8À,À0 Ì©Ì¨ÌªÀ+À/ À$À( kÀ#À' gÀ
+	at org.apache.http.message.BasicLineParser.parseRequestLine(BasicLineParser.java:287)
+	at org.apache.http.impl.nio.codecs.DefaultHttpRequestParser.createMessage(DefaultHttpRequestParser.java:119)
+	at org.apache.http.impl.nio.codecs.DefaultHttpRequestParser.createMessage(DefaultHttpRequestParser.java:51)
+	at org.apache.http.impl.nio.codecs.AbstractMessageParser.parseHeadLine(AbstractMessageParser.java:156)
+	at org.apache.http.impl.nio.codecs.AbstractMessageParser.parse(AbstractMessageParser.java:206)
+	... 14 more
+[2019-07-03 08:19:50,483]  INFO {org.apache.synapse.transport.passthru.SourceHandler} -  Writer null when calling informWriterError
+[2019-07-03 08:19:50,488] ERROR {org.apache.synapse.transport.passthru.SourceHandler} -  HttpException occurred 
+org.apache.http.ProtocolException: Invalid request line:  ·  ³ü9¿|WÿS[KôeLÒÕ¯/b[Ä  8À,À0 Ì©Ì¨ÌªÀ+À/ À$À( kÀ#À' gÀ
+	at org.apache.http.impl.nio.codecs.AbstractMessageParser.parse(AbstractMessageParser.java:208)
+	at org.apache.synapse.transport.http.conn.LoggingNHttpServerConnection$LoggingNHttpMessageParser.parse(LoggingNHttpServerConnection.java:407)
+	at org.apache.synapse.transport.http.conn.LoggingNHttpServerConnection$LoggingNHttpMessageParser.parse(LoggingNHttpServerConnection.java:381)
+	at org.apache.http.impl.nio.DefaultNHttpServerConnection.consumeInput(DefaultNHttpServerConnection.java:265)
+	at org.apache.synapse.transport.http.conn.LoggingNHttpServerConnection.consumeInput(LoggingNHttpServerConnection.java:114)
+	at org.apache.synapse.transport.passthru.ServerIODispatch.onInputReady(ServerIODispatch.java:82)
+	at org.apache.synapse.transport.passthru.ServerIODispatch.onInputReady(ServerIODispatch.java:39)
+	at org.apache.http.impl.nio.reactor.AbstractIODispatch.inputReady(AbstractIODispatch.java:113)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.readable(BaseIOReactor.java:159)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvent(AbstractIOReactor.java:338)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvents(AbstractIOReactor.java:316)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:277)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:105)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:586)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.http.ParseException: Invalid request line:  ·  ³ü9¿|WÿS[KôeLÒÕ¯/b[Ä  8À,À0 Ì©Ì¨ÌªÀ+À/ À$À( kÀ#À' gÀ
+	at org.apache.http.message.BasicLineParser.parseRequestLine(BasicLineParser.java:287)
+	at org.apache.http.impl.nio.codecs.DefaultHttpRequestParser.createMessage(DefaultHttpRequestParser.java:119)
+	at org.apache.http.impl.nio.codecs.DefaultHttpRequestParser.createMessage(DefaultHttpRequestParser.java:51)
+	at org.apache.http.impl.nio.codecs.AbstractMessageParser.parseHeadLine(AbstractMessageParser.java:156)
+	at org.apache.http.impl.nio.codecs.AbstractMessageParser.parse(AbstractMessageParser.java:206)
+	... 14 more
+[2019-07-03 08:19:50,489]  INFO {org.apache.synapse.transport.passthru.SourceHandler} -  Writer null when calling informWriterError
+[2019-07-03 08:53:15,676] ERROR {org.apache.synapse.transport.passthru.SourceHandler} -  HttpException occurred 
+org.apache.http.ProtocolException: Invalid request line:  ·  ³hÝ:÷÷Ý(Uÿ0äëIæªË¶ivÛR?Ö  8À,À0 Ì©Ì¨ÌªÀ+À/ À$À( kÀ#À' gÀ
+	at org.apache.http.impl.nio.codecs.AbstractMessageParser.parse(AbstractMessageParser.java:208)
+	at org.apache.synapse.transport.http.conn.LoggingNHttpServerConnection$LoggingNHttpMessageParser.parse(LoggingNHttpServerConnection.java:407)
+	at org.apache.synapse.transport.http.conn.LoggingNHttpServerConnection$LoggingNHttpMessageParser.parse(LoggingNHttpServerConnection.java:381)
+	at org.apache.http.impl.nio.DefaultNHttpServerConnection.consumeInput(DefaultNHttpServerConnection.java:265)
+	at org.apache.synapse.transport.http.conn.LoggingNHttpServerConnection.consumeInput(LoggingNHttpServerConnection.java:114)
+	at org.apache.synapse.transport.passthru.ServerIODispatch.onInputReady(ServerIODispatch.java:82)
+	at org.apache.synapse.transport.passthru.ServerIODispatch.onInputReady(ServerIODispatch.java:39)
+	at org.apache.http.impl.nio.reactor.AbstractIODispatch.inputReady(AbstractIODispatch.java:113)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.readable(BaseIOReactor.java:159)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvent(AbstractIOReactor.java:338)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvents(AbstractIOReactor.java:316)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:277)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:105)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:586)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.http.ParseException: Invalid request line:  ·  ³hÝ:÷÷Ý(Uÿ0äëIæªË¶ivÛR?Ö  8À,À0 Ì©Ì¨ÌªÀ+À/ À$À( kÀ#À' gÀ
+	at org.apache.http.message.BasicLineParser.parseRequestLine(BasicLineParser.java:287)
+	at org.apache.http.impl.nio.codecs.DefaultHttpRequestParser.createMessage(DefaultHttpRequestParser.java:119)
+	at org.apache.http.impl.nio.codecs.DefaultHttpRequestParser.createMessage(DefaultHttpRequestParser.java:51)
+	at org.apache.http.impl.nio.codecs.AbstractMessageParser.parseHeadLine(AbstractMessageParser.java:156)
+	at org.apache.http.impl.nio.codecs.AbstractMessageParser.parse(AbstractMessageParser.java:206)
+	... 14 more
+[2019-07-03 08:53:15,679]  INFO {org.apache.synapse.transport.passthru.SourceHandler} -  Writer null when calling informWriterError
+[2019-07-04 10:23:09,540] DEBUG {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  Invoked SSL Importer AdminServicesAƒsslpiHandler 
+[2019-07-04 10:23:09,540] DEBUG {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  Invoked SSL Importer AdminServicesAƒsslpiHandler 
+[2019-07-04 10:23:09,544]  INFO {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  The admin service was ignored by the SSL importer since the first element local name is urn:login
+[2019-07-04 10:23:09,544]  INFO {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  The admin service was ignored by the SSL importer since the first element local name is urn:login
+[2019-07-04 10:23:09,544] DEBUG {com.verifone.esb.handlers.AdminServicesApiHandler} -  Invoked Custom Mediaotor AdminServicesApiHandler
+[2019-07-04 10:23:09,544] DEBUG {com.verifone.esb.handlers.AdminServicesApiHandler} -  Invoked Custom Mediaotor AdminServicesApiHandler
+[2019-07-04 10:23:09,636] DEBUG {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  Invoked SSL Importer AdminServicesAƒsslpiHandler 
+[2019-07-04 10:23:09,636] DEBUG {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  Invoked SSL Importer AdminServicesAƒsslpiHandler 
+[2019-07-04 10:23:09,637]  INFO {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  The admin service was ignored by the SSL importer since the first element local name is urn:loginResponse
+[2019-07-04 10:23:09,637]  INFO {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  The admin service was ignored by the SSL importer since the first element local name is urn:loginResponse
+[2019-07-04 10:23:09,637] DEBUG {com.verifone.esb.handlers.AdminServicesApiHandler} -  Invoked Custom Mediaotor AdminServicesApiHandler
+[2019-07-04 10:23:09,637] DEBUG {com.verifone.esb.handlers.AdminServicesApiHandler} -  Invoked Custom Mediaotor AdminServicesApiHandler
+[2019-07-04 10:23:09,647] DEBUG {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  Invoked SSL Importer AdminServicesAƒsslpiHandler 
+[2019-07-04 10:23:09,647] DEBUG {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  Invoked SSL Importer AdminServicesAƒsslpiHandler 
+[2019-07-04 10:23:09,647]  INFO {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  The admin service was ignored by the SSL importer since the first element local name is urn:logout
+[2019-07-04 10:23:09,647]  INFO {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  The admin service was ignored by the SSL importer since the first element local name is urn:logout
+[2019-07-04 10:23:09,647] DEBUG {com.verifone.esb.handlers.AdminServicesApiHandler} -  Invoked Custom Mediaotor AdminServicesApiHandler
+[2019-07-04 10:23:09,647] DEBUG {com.verifone.esb.handlers.AdminServicesApiHandler} -  Invoked Custom Mediaotor AdminServicesApiHandler
+[2019-07-04 10:24:28,421] DEBUG {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  Invoked SSL Importer AdminServicesAƒsslpiHandler 
+[2019-07-04 10:24:28,421] DEBUG {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  Invoked SSL Importer AdminServicesAƒsslpiHandler 
+[2019-07-04 10:24:28,423]  INFO {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  The admin service was ignored by the SSL importer since the first element local name is urn:login
+[2019-07-04 10:24:28,423]  INFO {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  The admin service was ignored by the SSL importer since the first element local name is urn:login
+[2019-07-04 10:24:28,423] DEBUG {com.verifone.esb.handlers.AdminServicesApiHandler} -  Invoked Custom Mediaotor AdminServicesApiHandler
+[2019-07-04 10:24:28,423] DEBUG {com.verifone.esb.handlers.AdminServicesApiHandler} -  Invoked Custom Mediaotor AdminServicesApiHandler
+[2019-07-04 10:24:28,473] DEBUG {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  Invoked SSL Importer AdminServicesAƒsslpiHandler 
+[2019-07-04 10:24:28,473] DEBUG {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  Invoked SSL Importer AdminServicesAƒsslpiHandler 
+[2019-07-04 10:24:28,473]  INFO {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  The admin service was ignored by the SSL importer since the first element local name is urn:loginResponse
+[2019-07-04 10:24:28,473]  INFO {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  The admin service was ignored by the SSL importer since the first element local name is urn:loginResponse
+[2019-07-04 10:24:28,474] DEBUG {com.verifone.esb.handlers.AdminServicesApiHandler} -  Invoked Custom Mediaotor AdminServicesApiHandler
+[2019-07-04 10:24:28,474] DEBUG {com.verifone.esb.handlers.AdminServicesApiHandler} -  Invoked Custom Mediaotor AdminServicesApiHandler
+[2019-07-04 10:24:28,475] DEBUG {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  Invoked SSL Importer AdminServicesAƒsslpiHandler 
+[2019-07-04 10:24:28,475] DEBUG {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  Invoked SSL Importer AdminServicesAƒsslpiHandler 
+[2019-07-04 10:24:28,476]  INFO {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  The admin service was ignored by the SSL importer since the first element local name is urn:logout
+[2019-07-04 10:24:28,476]  INFO {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  The admin service was ignored by the SSL importer since the first element local name is urn:logout
+[2019-07-04 10:24:28,476] DEBUG {com.verifone.esb.handlers.AdminServicesApiHandler} -  Invoked Custom Mediaotor AdminServicesApiHandler
+[2019-07-04 10:24:28,476] DEBUG {com.verifone.esb.handlers.AdminServicesApiHandler} -  Invoked Custom Mediaotor AdminServicesApiHandler
+[2019-07-04 10:24:45,229] DEBUG {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  Invoked SSL Importer AdminServicesAƒsslpiHandler 
+[2019-07-04 10:24:45,229] DEBUG {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  Invoked SSL Importer AdminServicesAƒsslpiHandler 
+[2019-07-04 10:24:45,231]  INFO {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  The admin service was ignored by the SSL importer since the first element local name is urn:login
+[2019-07-04 10:24:45,231]  INFO {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  The admin service was ignored by the SSL importer since the first element local name is urn:login
+[2019-07-04 10:24:45,231] DEBUG {com.verifone.esb.handlers.AdminServicesApiHandler} -  Invoked Custom Mediaotor AdminServicesApiHandler
+[2019-07-04 10:24:45,231] DEBUG {com.verifone.esb.handlers.AdminServicesApiHandler} -  Invoked Custom Mediaotor AdminServicesApiHandler
+[2019-07-04 10:24:45,296] DEBUG {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  Invoked SSL Importer AdminServicesAƒsslpiHandler 
+[2019-07-04 10:24:45,296] DEBUG {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  Invoked SSL Importer AdminServicesAƒsslpiHandler 
+[2019-07-04 10:24:45,296]  INFO {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  The admin service was ignored by the SSL importer since the first element local name is urn:loginResponse
+[2019-07-04 10:24:45,296]  INFO {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  The admin service was ignored by the SSL importer since the first element local name is urn:loginResponse
+[2019-07-04 10:24:45,296] DEBUG {com.verifone.esb.handlers.AdminServicesApiHandler} -  Invoked Custom Mediaotor AdminServicesApiHandler
+[2019-07-04 10:24:45,296] DEBUG {com.verifone.esb.handlers.AdminServicesApiHandler} -  Invoked Custom Mediaotor AdminServicesApiHandler
+[2019-07-04 10:24:45,299] DEBUG {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  Invoked SSL Importer AdminServicesAƒsslpiHandler 
+[2019-07-04 10:24:45,299] DEBUG {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  Invoked SSL Importer AdminServicesAƒsslpiHandler 
+[2019-07-04 10:24:45,299]  INFO {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  The admin service was ignored by the SSL importer since the first element local name is urn:logout
+[2019-07-04 10:24:45,299]  INFO {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  The admin service was ignored by the SSL importer since the first element local name is urn:logout
+[2019-07-04 10:24:45,299] DEBUG {com.verifone.esb.handlers.AdminServicesApiHandler} -  Invoked Custom Mediaotor AdminServicesApiHandler
+[2019-07-04 10:24:45,299] DEBUG {com.verifone.esb.handlers.AdminServicesApiHandler} -  Invoked Custom Mediaotor AdminServicesApiHandler
+[2019-07-04 10:25:40,622] DEBUG {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  Invoked SSL Importer AdminServicesAƒsslpiHandler 
+[2019-07-04 10:25:40,622] DEBUG {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  Invoked SSL Importer AdminServicesAƒsslpiHandler 
+[2019-07-04 10:25:40,624]  INFO {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  The admin service was ignored by the SSL importer since the first element local name is urn:login
+[2019-07-04 10:25:40,624]  INFO {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  The admin service was ignored by the SSL importer since the first element local name is urn:login
+[2019-07-04 10:25:40,624] DEBUG {com.verifone.esb.handlers.AdminServicesApiHandler} -  Invoked Custom Mediaotor AdminServicesApiHandler
+[2019-07-04 10:25:40,624] DEBUG {com.verifone.esb.handlers.AdminServicesApiHandler} -  Invoked Custom Mediaotor AdminServicesApiHandler
+[2019-07-04 10:25:40,633] DEBUG {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  Invoked SSL Importer AdminServicesAƒsslpiHandler 
+[2019-07-04 10:25:40,633] DEBUG {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  Invoked SSL Importer AdminServicesAƒsslpiHandler 
+[2019-07-04 10:25:40,633]  INFO {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  The admin service was ignored by the SSL importer since the first element local name is urn:loginResponse
+[2019-07-04 10:25:40,633]  INFO {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  The admin service was ignored by the SSL importer since the first element local name is urn:loginResponse
+[2019-07-04 10:25:40,633] DEBUG {com.verifone.esb.handlers.AdminServicesApiHandler} -  Invoked Custom Mediaotor AdminServicesApiHandler
+[2019-07-04 10:25:40,633] DEBUG {com.verifone.esb.handlers.AdminServicesApiHandler} -  Invoked Custom Mediaotor AdminServicesApiHandler
+[2019-07-04 10:25:40,635] DEBUG {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  Invoked SSL Importer AdminServicesAƒsslpiHandler 
+[2019-07-04 10:25:40,635] DEBUG {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  Invoked SSL Importer AdminServicesAƒsslpiHandler 
+[2019-07-04 10:25:40,635]  INFO {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  The admin service was ignored by the SSL importer since the first element local name is urn:logout
+[2019-07-04 10:25:40,635]  INFO {org.wso2.ssl.certificate.importer.AdminServicesApiHandler} -  The admin service was ignored by the SSL importer since the first element local name is urn:logout
+[2019-07-04 10:25:40,635] DEBUG {com.verifone.esb.handlers.AdminServicesApiHandler} -  Invoked Custom Mediaotor AdminServicesApiHandler
+[2019-07-04 10:25:40,635] DEBUG {com.verifone.esb.handlers.AdminServicesApiHandler} -  Invoked Custom Mediaotor AdminServicesApiHandler

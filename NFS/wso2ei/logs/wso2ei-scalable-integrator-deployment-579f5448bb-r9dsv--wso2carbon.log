@@ -1,0 +1,125 @@
+[2019-07-02 13:30:36,074] ERROR {org.wso2.carbon.ndatasource.core.internal.DataSourceServiceComponent} -  Error in intializing system data sources: Error in initializing system data sources: Error in initializing system data sources at '/home/wso2carbon/wso2ei-6.4.0/conf/datasources/esb-datasources.xml' - Error in creating an XML document from file: The entity name must immediately follow the '&' in the entity reference.
+org.wso2.carbon.ndatasource.common.DataSourceException: Error in initializing system data sources: Error in initializing system data sources at '/home/wso2carbon/wso2ei-6.4.0/conf/datasources/esb-datasources.xml' - Error in creating an XML document from file: The entity name must immediately follow the '&' in the entity reference.
+	at org.wso2.carbon.ndatasource.core.DataSourceManager.initSystemDataSources(DataSourceManager.java:169)
+	at org.wso2.carbon.ndatasource.core.internal.DataSourceServiceComponent.initSystemDataSources(DataSourceServiceComponent.java:213)
+	at org.wso2.carbon.ndatasource.core.internal.DataSourceServiceComponent.setSecretCallbackHandlerService(DataSourceServiceComponent.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.internal.ds.model.ComponentReference.bind(ComponentReference.java:376)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bindReference(ServiceComponentProp.java:430)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bind(ServiceComponentProp.java:218)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:343)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:343)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:130)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:214)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.registerService(BundleContextImpl.java:433)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.registerService(BundleContextImpl.java:451)
+	at org.wso2.carbon.securevault.internal.SecretManagerInitializerComponent.activate(SecretManagerInitializerComponent.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.activate(ServiceComponent.java:260)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.activate(ServiceComponentProp.java:146)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:345)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.buildNewlySatisfied(Resolver.java:473)
+	at org.eclipse.equinox.internal.ds.Resolver.enableComponents(Resolver.java:217)
+	at org.eclipse.equinox.internal.ds.SCRManager.performWork(SCRManager.java:816)
+	at org.eclipse.equinox.internal.ds.SCRManager$QueuedJob.dispatch(SCRManager.java:783)
+	at org.eclipse.equinox.internal.ds.WorkThread.run(WorkThread.java:89)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.wso2.carbon.ndatasource.common.DataSourceException: Error in initializing system data sources at '/home/wso2carbon/wso2ei-6.4.0/conf/datasources/esb-datasources.xml' - Error in creating an XML document from file: The entity name must immediately follow the '&' in the entity reference.
+	at org.wso2.carbon.ndatasource.core.DataSourceManager.initSystemDataSource(DataSourceManager.java:189)
+	at org.wso2.carbon.ndatasource.core.DataSourceManager.initSystemDataSources(DataSourceManager.java:164)
+	... 40 more
+Caused by: org.wso2.carbon.ndatasource.common.DataSourceException: Error in creating an XML document from file: The entity name must immediately follow the '&' in the entity reference.
+	at org.wso2.carbon.ndatasource.core.utils.DataSourceUtils.convertToDocument(DataSourceUtils.java:256)
+	at org.wso2.carbon.ndatasource.core.DataSourceManager.initSystemDataSource(DataSourceManager.java:176)
+	... 41 more
+Caused by: org.xml.sax.SAXParseException: The entity name must immediately follow the '&' in the entity reference.
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at org.wso2.carbon.ndatasource.core.utils.DataSourceUtils.convertToDocument(DataSourceUtils.java:253)
+	... 42 more
+[2019-07-02 13:30:49,888] ERROR {com.verifone.esb.handlers.AdminServicesApiHandler} -  couldn't get SystemParameter of CLEAR_CACHE_ENABLED/URL from Registry
+[2019-07-02 13:30:49,888] ERROR {com.verifone.esb.handlers.AdminServicesApiHandler} -  couldn't get SystemParameter of CLEAR_CACHE_ENABLED/URL from Registry
+[2019-07-02 13:30:49,893]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Clustering has been enabled
+[2019-07-02 13:30:49,898]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Running in application mode
+[2019-07-02 13:30:50,904]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSender} -  Initializing Pass-through HTTP/S Sender...
+[2019-07-02 13:30:50,939]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSender} -  Pass-through HTTP Sender started...
+[2019-07-02 13:30:50,939]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender} -  Initializing Pass-through HTTP/S Sender...
+[2019-07-02 13:30:50,992]  INFO {org.apache.synapse.transport.nhttp.config.ClientConnFactoryBuilder} -  customSSLProfiles configuration is loaded from path: /home/wso2carbon/wso2ei-6.4.0/conf/senderprofiles.xml
+[2019-07-02 13:30:50,993]  INFO {org.apache.synapse.transport.nhttp.config.ClientConnFactoryBuilder} -  HTTPS Loading custom SSL profiles for the HTTPS sender
+[2019-07-02 13:30:51,010]  INFO {org.apache.synapse.transport.nhttp.config.ClientConnFactoryBuilder} -  HTTPS Custom SSL profiles initialized for 226 servers
+[2019-07-02 13:30:51,011]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender} -  Pass-through HTTPS Sender started...
+[2019-07-02 13:30:51,022]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} -  Initializing Pass-through HTTP/S Listener...
+[2019-07-02 13:30:51,044]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener} -  Initializing Pass-through HTTP/S Listener...
+[2019-07-02 13:30:51,225]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: addressing-1.6.1-wso2v28 - file:/home/wso2carbon/wso2ei-6.4.0/repository/deployment/client/modules/addressing-1.6.1-wso2v28.mar
+[2019-07-02 13:30:51,229]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: rampart-1.6.1-wso2v26 - file:/home/wso2carbon/wso2ei-6.4.0/repository/deployment/client/modules/rampart-1.6.1-wso2v26.mar
+[2019-07-02 13:30:51,621]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.business.messaging.hl7.store-4.6.105 - 
+[2019-07-02 13:30:52,188]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.message.processor-4.6.105 - 
+[2019-07-02 13:30:52,197]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.message.store-4.6.105 - 
+[2019-07-02 13:30:52,829]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.sts-5.2.6 - 
+[2019-07-02 13:30:52,913]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.tryit-4.6.49 - 
+[2019-07-02 13:30:57,559]  INFO {org.apache.synapse.SynapseControllerFactory} -  Using Synapse home : /home/wso2carbon/wso2ei-6.4.0/.
+[2019-07-02 13:30:57,560]  INFO {org.apache.synapse.SynapseControllerFactory} -  Using synapse.xml location : /home/wso2carbon/wso2ei-6.4.0/././repository/deployment/server/synapse-configs/default
+[2019-07-02 13:30:57,560]  INFO {org.apache.synapse.SynapseControllerFactory} -  Using server name : localhost
+[2019-07-02 13:30:57,564]  INFO {org.apache.synapse.SynapseControllerFactory} -  The timeout handler will run every : 15s
+[2019-07-02 13:30:57,569]  INFO {org.apache.synapse.Axis2SynapseController} -  Initializing Synapse at : Tue Jul 02 13:30:57 GMT 2019
+[2019-07-02 13:30:57,577]  INFO {org.apache.synapse.config.xml.MultiXMLConfigurationBuilder} -  Building synapse configuration from the synapse artifact repository at : ././repository/deployment/server/synapse-configs/default
+[2019-07-02 13:30:57,580]  INFO {org.apache.synapse.config.xml.XMLConfigurationBuilder} -  Generating the Synapse configuration model by parsing the XML configuration
+[2019-07-02 13:30:57,640]  INFO {org.apache.synapse.config.SynapseConfigurationBuilder} -  Loaded Synapse configuration from the artifact repository at : ././repository/deployment/server/synapse-configs/default
+[2019-07-02 13:30:57,643]  INFO {org.apache.synapse.Axis2SynapseController} -  Loading mediator extensions...
+[2019-07-02 13:30:57,653]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Echo.aar - file:/home/wso2carbon/wso2ei-6.4.0/repository/deployment/server/axis2services/Echo.aar
+[2019-07-02 13:30:57,662]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Version.aar - file:/home/wso2carbon/wso2ei-6.4.0/repository/deployment/server/axis2services/Version.aar
+[2019-07-02 13:30:57,688] ERROR {org.wso2.carbon.event.publisher.core.internal.util.helper.EventPublisherConfigurationFilesystemInvoker} -  Unable to decrypt the encrypted field: password for adaptor type: wso2event
+[2019-07-02 13:30:57,701] ERROR {org.wso2.carbon.event.publisher.core.internal.util.helper.EventPublisherConfigurationFilesystemInvoker} -  Unable to decrypt the encrypted field: password for adaptor type: wso2event
+[2019-07-02 13:30:57,868]  INFO {org.apache.synapse.Axis2SynapseController} -  Deploying the Synapse service...
+[2019-07-02 13:30:57,869]  INFO {org.apache.synapse.Axis2SynapseController} -  Deploying Proxy services...
+[2019-07-02 13:30:57,869]  INFO {org.apache.synapse.Axis2SynapseController} -  Deploying EventSources...
+[2019-07-02 13:30:57,887]  INFO {org.apache.synapse.ServerManager} -  Server ready for processing...
+[2019-07-02 13:31:00,541]  INFO {org.apache.synapse.core.axis2.Axis2SynapseEnvironment} -  Continuation call is set to true
+[2019-07-02 13:31:00,565]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence named 'reqProcessingCGESequence' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562074259264VerifoneProxy_1.0.0.car/reqProcessingCGESequence_1.0.0/reqProcessingCGESequence-1.0.0.xml
+[2019-07-02 13:31:00,567]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence named 'splunkLogPayloadSequence' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562074259264VerifoneProxy_1.0.0.car/splunkLogPayloadSequence_1.0.0/splunkLogPayloadSequence-1.0.0.xml
+[2019-07-02 13:31:00,586]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence named 'requestProcessingsError' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562074259264VerifoneProxy_1.0.0.car/requestProcessingsError_1.0.0/requestProcessingsError-1.0.0.xml
+[2019-07-02 13:31:00,612]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence named 'faultCommonSequence' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562074259264VerifoneProxy_1.0.0.car/faultCommonSequence_1.0.0/faultCommonSequence-1.0.0.xml
+[2019-07-02 13:31:00,624]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence named 'basicValuesSequence' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562074259264VerifoneProxy_1.0.0.car/basicValuesSequence_1.0.0/basicValuesSequence-1.0.0.xml
+[2019-07-02 13:31:00,636]  INFO {org.apache.synapse.mediators.db.DBLookupMediator} -  Successfully created data source for jdbc:mysql://cd1rg3usmplyedd.cwegnemmy1on.us-east-1.rds.amazonaws.com:3306/dev_cpp.
+[2019-07-02 13:31:00,636]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence named 'ActiveOnStatusesLookUpSequence' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562074259264VerifoneProxy_1.0.0.car/ActiveOnStatusesLookUpSequence_1.0.0/ActiveOnStatusesLookUpSequence-1.0.0.xml
+[2019-07-02 13:31:00,649]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence named 'connectivityTestSequence' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562074259264VerifoneProxy_1.0.0.car/connectivityTestSequence_1.0.0/connectivityTestSequence-1.0.0.xml
+[2019-07-02 13:31:00,876]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence named 'reqProcessingAuthorizationSequence' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562074259264VerifoneProxy_1.0.0.car/reqProcessingAuthorizationSequence_1.0.0/reqProcessingAuthorizationSequence-1.0.0.xml
+[2019-07-02 13:31:00,883]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence named 'mainVerifoneFaultSequence' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562074259264VerifoneProxy_1.0.0.car/mainVerifoneFaultSequence_1.0.0/mainVerifoneFaultSequence-1.0.0.xml
+[2019-07-02 13:31:00,890]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence named 'routeToServiceSequence' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562074259264VerifoneProxy_1.0.0.car/routeToServiceSequence_1.0.0/routeToServiceSequence-1.0.0.xml
+[2019-07-02 13:31:00,933]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence named 'requestProcessingsSequence' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562074259264VerifoneProxy_1.0.0.car/requestProcessingsSequence_1.0.0/requestProcessingsSequence-1.0.0.xml
+[2019-07-02 13:31:00,970]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence named 'mainVerifoneSequence' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562074259264VerifoneProxy_1.0.0.car/mainVerifoneSequence_1.0.0/mainVerifoneSequence-1.0.0.xml
+[2019-07-02 13:31:00,971]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence named 'removeClientHeadersSequence' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562074259264VerifoneProxy_1.0.0.car/removeClientHeadersSequence_1.0.0/removeClientHeadersSequence-1.0.0.xml
+[2019-07-02 13:31:00,975]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence named 'reqProcessingsRestoreSequence' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562074259264VerifoneProxy_1.0.0.car/reqProcessingsRestoreSequence_1.0.0/reqProcessingsRestoreSequence-1.0.0.xml
+[2019-07-02 13:31:00,996]  INFO {org.wso2.balana.ConfigurationStore} -  Loading runtime configuration
+[2019-07-02 13:31:01,007]  INFO {org.wso2.xacml.registry.pip.AttributeFinderModuleHelper} -  Initialized AttributeFinderModuleHelper
+[2019-07-02 13:31:01,085]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence named 'mainVerifoneInternalEntitlementSequence' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562074259264VerifoneProxy_1.0.0.car/mainVerifoneInternalEntitlementSequence_1.0.0/mainVerifoneInternalEntitlementSequence-1.0.0.xml
+[2019-07-02 13:31:01,087]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence named 'reqProcessingBackupSequence' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562074259264VerifoneProxy_1.0.0.car/reqProcessingBackupSequence_1.0.0/reqProcessingBackupSequence-1.0.0.xml
+[2019-07-02 13:31:01,104]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence named 'mainVerifoneOutSequence' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562074259264VerifoneProxy_1.0.0.car/mainVerifoneOutSequence_1.0.0/mainVerifoneOutSequence-1.0.0.xml
+[2019-07-02 13:31:01,108]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Building Axis service for Proxy service : verifone
+[2019-07-02 13:31:01,109]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Adding service verifone to the Axis2 configuration
+[2019-07-02 13:31:01,117]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Successfully created the Axis2 service for Proxy service : verifone
+[2019-07-02 13:31:01,117]  INFO {org.apache.synapse.deployers.ProxyServiceDeployer} -  ProxyService named 'verifone' has been deployed from file : /home/wso2carbon/wso2ei-6.4.0/wso2/tmp/carbonapps/-1234/1562074259264VerifoneProxy_1.0.0.car/verifone_1.0.0/verifone-1.0.0.xml
+[2019-07-02 13:31:01,126]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} -  Starting Pass-through HTTP Listener...
+[2019-07-02 13:31:01,481]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence: fault has been updated from the file: /home/wso2carbon/wso2ei-6.4.0/repository/deployment/server/synapse-configs/default/sequences/fault.xml
+[2019-07-02 13:31:01,503]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} -  Pass-through HTTP Listener started on 0.0.0.0:8280
+[2019-07-02 13:31:01,503]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener} -  Starting Pass-through HTTPS Listener...
+[2019-07-02 13:31:01,506]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} -  Pass-through HTTPS Listener started on 0.0.0.0:8243
+[2019-07-02 13:31:03,489]  INFO {org.apache.synapse.deployers.SequenceDeployer} -  Sequence: main has been updated from the file: /home/wso2carbon/wso2ei-6.4.0/repository/deployment/server/synapse-configs/default/sequences/main.xml

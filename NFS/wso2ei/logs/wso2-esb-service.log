@@ -1,0 +1,15 @@
+2019-07-02 13:31:01,108 [-] [localhost-startStop-1]  INFO verifone Building Axis service for Proxy service : verifone
+2019-07-02 13:31:01,110 [-] [localhost-startStop-1]  INFO verifone Adding service verifone to the Axis2 configuration
+2019-07-02 13:31:01,117 [-] [localhost-startStop-1]  INFO verifone Successfully created the Axis2 service for Proxy service : verifone
+2019-07-02 13:35:56,953 [-] [localhost-startStop-1]  INFO verifone Building Axis service for Proxy service : verifone
+2019-07-02 13:35:56,955 [-] [localhost-startStop-1]  INFO verifone Adding service verifone to the Axis2 configuration
+2019-07-02 13:35:56,959 [-] [localhost-startStop-1]  INFO verifone Successfully created the Axis2 service for Proxy service : verifone
+2019-07-02 14:18:55,321 [-] [localhost-startStop-1]  INFO verifone Building Axis service for Proxy service : verifone
+2019-07-02 14:18:55,324 [-] [localhost-startStop-1]  INFO verifone Adding service verifone to the Axis2 configuration
+2019-07-02 14:18:55,331 [-] [localhost-startStop-1]  INFO verifone Successfully created the Axis2 service for Proxy service : verifone
+2019-07-03 08:03:49,505 [-] [localhost-startStop-1]  INFO verifone Building Axis service for Proxy service : verifone
+2019-07-03 08:03:49,507 [-] [localhost-startStop-1]  INFO verifone Adding service verifone to the Axis2 configuration
+2019-07-03 08:03:49,512 [-] [localhost-startStop-1]  INFO verifone Successfully created the Axis2 service for Proxy service : verifone
+2019-07-04 17:38:48,590 [-] [localhost-startStop-1]  INFO verifone Building Axis service for Proxy service : verifone
+2019-07-04 17:38:48,593 [-] [localhost-startStop-1]  INFO verifone Adding service verifone to the Axis2 configuration
+2019-07-04 17:38:48,598 [-] [localhost-startStop-1]  INFO verifone Successfully created the Axis2 service for Proxy service : verifone
